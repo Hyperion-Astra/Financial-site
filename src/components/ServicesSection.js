@@ -3,23 +3,23 @@ import "./ServicesSection.css";
 
 const services = [
   {
-    title: "COMPREHENSIVE WEALTH MANAGEMENT",
-    description: "Tailored strategies for wealth growth and preservation, ensuring your long-term financial security.",
+    title: "STANDBY LETTERS OF CREDIT",
+    description: "Secure your transactions with our expertly managed SBLC services. We offer robust financial guarantees to enhance trust and facilitate global trade or large-scale projects.",
     moreInfo: "We provide expert financial guidance and investment solutions to ensure your wealth remains secure and grows over time. Our approach includes risk assessment, asset allocation, and personalized planning."
   },
   {
-    title: "PERSONALIZED LOAN SOLUTIONS",
-    description: "Custom loan options designed to suit your unique financial needs and goals, with flexible terms.",
+    title: "LOAN FINANCING",
+    description: " Access flexible, competitive loan options to fund your ambitions—whether launching a new venture, expanding operations, or bridging financial gaps. We provide swift, reliable capital tailored to your needs.",
     moreInfo: "We offer tailored loan services with competitive rates, ensuring you get the right financial support for your specific needs, whether for business expansion or personal investments."
   },
   {
-    title: "STRATEGIC INVESTMENT PLANNING",
-    description: "Expert guidance on investment opportunities to maximize returns and minimize risks effectively.",
+    title: "MONIETIZATION",
+    description: " Transform your financial instruments into immediate liquidity. Our monetisation services unlock the value of your assets, providing fast cash flow to seize opportunities or meet urgent demands.",
     moreInfo: "Our advisors work closely with you to identify profitable opportunities, balancing risk and reward to maximize your financial potential through smart investment strategies."
   },
   {
-    title: "ESTATE PLANNING SERVICES",
-    description: "Comprehensive estate planning to safeguard assets and ensure smooth inheritance processes.",
+    title: "JOINT VENTURES",
+    description: " Partner with us to co-invest in high-potential opportunities. We collaborate with businesses and entrepreneurs to share resources, expertise, and risks, driving mutual success in profitable ventures.",
     moreInfo: "We help structure your estate efficiently, ensuring your assets are distributed according to your wishes while minimizing tax liabilities for your beneficiaries."
   },
 ];
@@ -35,7 +35,7 @@ const ServicesSection = () => {
 
   return (
     <section className="services-section" id="services"> 
-      <h2 className="section-title">Financial Solutions</h2>
+      <h2 className="section-title">SERVICES</h2>
       <div className="services-grid">
         {services.map((service, index) => (
           <div key={index} className="service-card">

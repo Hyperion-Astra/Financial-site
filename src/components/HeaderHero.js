@@ -34,7 +34,7 @@ const HeaderHero = () => {
       <div className="hero-overlay"></div>
       {/* Header */}
       <header className={`header ${isScrolled ? "scrolled" : ""}`}>
-        <h1 className="logo" onClick={() => window.location.reload()} style={{ cursor: "pointer" }}>AVALLON</h1>
+        <h1 className="logo" onClick={() => window.location.reload()} style={{ cursor: "pointer" }}>CREST-NEXUS</h1>
         <button className="contact-button" onClick={() => scrollToSection("contact")} style={{ cursor: "pointer" }}>Contact us</button>
       </header>
 
@@ -43,7 +43,9 @@ const HeaderHero = () => {
         <h2 className="hero-title">SECURE YOUR FINANCIAL FUTURE</h2>
         <p className="hero-text">
           Discover tailored investment and loan solutions designed to help you achieve your financial goals. 
-          Partner with Avallon and experience expert guidance every step of the way.
+          Partner with Crest-Nexus and experience expert guidance every step of the way. Whether you’re seeking capital, a financial guarantee, 
+          liquidity, or a strategic partnership, 
+          Crest-Nexus is your gateway to success. 
         </p>
         <button className="explore-button" onClick={() => scrollToSection("services")} style={{ cursor: "pointer"}}>Explore Services</button>
       </div>

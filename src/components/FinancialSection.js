@@ -14,11 +14,11 @@ const FinancialSection = () => {
   return (
     <section className="financial-banner">
       <div className="banner-content">
-        <h1 className="banner-heading">ELEVATE YOUR FINANCIAL FUTURE</h1>
+        <h1 className="banner-heading">WHY CHOOSE US</h1>
         <p className="banner-text">
-          Discover smart investment and tailored loan solutions with Avallon,
-          right here in Greater London. Our expert team is ready to guide your
-          financial growth.
+        Operating from one of the world’s premier financial capitals, we bring local insight and global reach to every client. 
+        FUTHERMORE, Every client is unique. We craft bespoke strategies to align with your specific goals and circumstances. 
+        With a proven track record and a client-first approach, we’re here to build lasting relationships grounded in integrity and results.
         </p>
         <button className="banner-button" onClick={() => scrollToSection("services")}>Explore Options</button>
       </div>

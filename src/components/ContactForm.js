@@ -39,7 +39,7 @@ const ContactForm = () => {
     <div className="contact-section" id="contact">
       <div className="contact-text">
         <h2>CONNECT WITH OUR EXPERTS TODAY</h2>
-        <p>Reach out to Avallon in Greater London for personalized investment and loan services.</p>
+        <p>Reach out to Crest-Nexus in London, UK for personalized investment and loan services.</p>
       </div>
 
       <form onSubmit={handleSubmit} className="contact-form">
